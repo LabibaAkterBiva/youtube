@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.head-btn {
+    
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+   
+}
+
+
+.middle {
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    background:  rgba(37, 37, 37, 0.20);
+
+}
+
+.right {
+    padding: 5px 10px;
+    margin-left: auto;
+    background-color: #ff0000;
+    color: white;
+}
+.line{
+    background: rgba(23, 23, 23, 0.20); 
+}
+
+
+.category-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e0e0e0;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.category-btn:hover, .category-btn.active {
+    background-color: #FF0000;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video-card img {
+    width:400px;
+    height: 250px;
+}
+.video-thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.time-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+
+.video-info {
+    padding: 10px;
+}
+
+.video-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.video-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.video-info .author {
+    display: flex;
+    align-items: center;
+}
+
+.video-info .author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+img{
+    width: 20px 20px;
+}
+.novedio
+{  padding-top: 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     height: 100vh;
+    
+}
+.icon{
+    width: 140px;
+height: 140px;
+
+}
+.n
+{color: #171717;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;}
